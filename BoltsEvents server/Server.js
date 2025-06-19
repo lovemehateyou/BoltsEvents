@@ -11,7 +11,7 @@ const eventRoutes = require('./Routes/eventR.js');
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:8080',
+  origin: 'https://boltsevent.netlify.app',
   credentials: true,
 }));
 app.use(express.json());
